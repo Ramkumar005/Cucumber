@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose='5'>
+	<test name="PurchaceOrder">
+		<parameter name="Browser" value="chrome"></parameter>
+		<parameter name="URL"
+			value="https://commercejs-demo-store.netlify.app/"></parameter>
+
+		<classes> 
+			<class name="runner.Runner_CommerceStore" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
