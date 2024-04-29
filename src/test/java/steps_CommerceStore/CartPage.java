@@ -12,7 +12,7 @@ public class CartPage extends Base {
 	@And("Click Checkout")
 	public void clickCheckout() throws IOException {
 		try {
-			driver.findElement(By.xpath("//a[text()='Checkout']")).click(); // Clicking Checkout Button
+			driver.findElement(By.xpath("//a[text()='Checkout']")).click(); 
 			
 		} catch (Exception e) {
 			System.out.println(e);
