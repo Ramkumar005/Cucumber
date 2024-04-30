@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeTest;
 import base.Base;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(features = "./src/test/java/features_commerceStore/Purchase_Product.feature", glue = "steps_CommerceStore", monochrome = true, publish = true)
+@CucumberOptions(features = "src/test/java/features_commerceStore/Purchase_Product.feature", glue = "steps_CommerceStore", monochrome = true, publish = true)
 
 public class Runner_CommerceStore extends Base {
 
